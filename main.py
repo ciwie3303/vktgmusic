@@ -6,7 +6,7 @@ import telebot
 from colored import fg, bg, attr
 from telebot import types
 
-vk_session = vk_api.VkApi('+79822481048', 'Tapok2202') #логин и пароль
+vk_session = vk_api.VkApi('+', '') #логин и пароль
 vk_session.auth()
 vkaudio = VkAudio(vk_session)
 
